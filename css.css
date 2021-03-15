@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0px; /*encosta o elemento à esquerda pegando 100% da tela*/
   background: #F1F3F4;
 }
@@ -69,10 +69,14 @@ h1 {
 .container {
   margin: 5px 98px;
   padding: 15px auto;
-  width: 1140px;
+  width: 1170px;
   height: 572px;
   box-shadow: 7px 7px 7px #C6C6C6;
   background: white;
+}
+
+.separator {
+  margin-top: 0px;
 }
 
 .separator:after {
