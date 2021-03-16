@@ -135,7 +135,6 @@ h1 {
 
 .item-list {
   font-size: 13px;
-
 }
 
 .content {
@@ -178,12 +177,18 @@ h1 {
   display: flex;
   text-align: center;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .icone {
   display: flex;
   align-items: center;
   border-radius: 5px;
+}
+
+.icone:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
 }
 
 .icons .icone {
