@@ -98,6 +98,11 @@ h1 {
   cursor: pointer;
 }
 
+.btn:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
 .incluir {
   background: #2B618E;
 }
@@ -131,3 +136,70 @@ h1 {
 .content {
   padding: 10px;
 }
+
+.content-body {
+  height: 420px;
+  padding: 10px;
+  margin: 5px 10px 5px 10px;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-body input, label {
+  margin-left: 10px;
+}
+
+.conteudo {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.list {
+  margin-left: 10px;
+  background: black;
+  width: 100px;
+  height: 26px;
+}
+
+.item-list {
+  padding: 0 auto;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+.logomarca {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.logomarca:after {
+  content: "";
+  margin-top: 5px;
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #a39f9f;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+
+.icone {
+  display: flex;
+  align-items: center;
+}
+
+.icons .icone {
+  width: 15px;
+  height: 10px;
+  border: 1px black solid;
+  padding: 10px;
+  margin: 5px;
+}
+
